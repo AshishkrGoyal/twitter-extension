@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name":"tweet_easier",
+  "description":"extension for sharing text, links, images to twitter directly",
+  "version":"1.0.1",
+  "icons":{
+    "16":"twitter1.png",
+    "64":"twitter1.png",
+    "32":"twitter1.png",
+    "128":"twitter1.png"
+  },
+  "background":{
+    "scripts":["background.js"]
+  },
+  "permissions":[
+    "contextMenus","<all_urls>"
+  ]
+}
